@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact = (props) => {
+    //programmatic redirect
+    //console.log(props);
+    // setTimeout(() => {
+    //     props.history.push('/about')
+    // }, 2000);
     return ( 
         <div className='ui raised very padded text container segment'
              style={{marginTop: '80px'}}>
