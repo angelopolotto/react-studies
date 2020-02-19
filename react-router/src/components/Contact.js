@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Contact = (props) => {
     //programmatic redirect
@@ -7,10 +8,17 @@ const Contact = (props) => {
     //     props.history.push('/about')
     // }, 2000);
     return ( 
-        <div className='ui raised very padded text container segment'
+        <div>
+            <div className='ui raised very padded text container segment'
              style={{marginTop: '80px'}}>
-                <h3 className='ui header'>Contact</h3>
+                <Link to='/card/alex' className='ui header'>Alex</Link>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis, per gatis num morreus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
+            </div>
+            <div className='ui raised very padded text container segment'
+                style={{marginTop: '80px'}}>
+                    <Link to='/card/willma' className='ui header'>Willma</Link>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis, per gatis num morreus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
+            </div>
         </div>
     )
 }
