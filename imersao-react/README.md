@@ -11,6 +11,8 @@
 npx create-react-app netflix
 cd netflix
 npm start
+
+npm install styled-components
 ```
 - deltados:
 ```
@@ -31,4 +33,6 @@ App.test.js
 - comandos:
 ```
 npm install react-router-dom
+npm install react-slick
 ```
+- slick carrossel: https://react-slick.neostack.com/
